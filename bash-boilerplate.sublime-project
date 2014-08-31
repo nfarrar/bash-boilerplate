@@ -1,0 +1,10 @@
+{
+    "folders":
+    [
+        {
+            "name": "Boilerplate",
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ]
+}
