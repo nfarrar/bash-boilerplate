@@ -67,3 +67,6 @@ sftp-config.json
 ### Sphinx ###
 docs/_build/
 
+
+### Reference Files ###
+.refs
