@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # @Author:             Nathan Farrar
-# @Date:               2014-08-31 10:50:29
+# @Date:               2014-08-31 10:45:20
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:18
+# @Last Modified time: 2014-08-31 12:16:31
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -19,3 +19,14 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Terminal Symbols
+# ================
+
+# Global Constants
+# ----------------
+C_SYMBOL_SUCCESS='✓'
+C_SYMBOL_FAILURE='✘'
+C_SYMBOL_WARN='☣'
+C_SYMBOL_INPUT='⤆'
+C_SYMBOL_OUTPUT='⤇'

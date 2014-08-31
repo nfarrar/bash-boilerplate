@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # @Author:             Nathan Farrar
-# @Date:               2014-08-31 10:50:29
+# @Date:               2014-08-31 10:11:36
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:18
+# @Last Modified time: 2014-08-31 12:16:41
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -19,3 +19,14 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# Command Line Options
+# --------------------
+E_ERR_INVALID_CLI_OPTIONS=110               # exit code for CLI options error
+
+F_USE_CLI_OPTIONS=0                         # enable command line option parsing
+
+parse_cli_options() {
+    message "$FUNCNAME not implimented."
+    die $E_ERR_NOT_IMPLIMENTED
+}

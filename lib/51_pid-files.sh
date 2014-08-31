@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # @Author:             Nathan Farrar
-# @Date:               2014-08-31 10:50:29
+# @Date:               2014-08-31 10:41:44
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:18
+# @Last Modified time: 2014-08-31 12:16:49
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -19,3 +19,10 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# PID Files
+# ---------
+F_USE_PID_FILE=0                        # read and write our pid from a file
+C_PID_FILE='boilerplate.pid'            # read and write our pid from this file (if F_USE_PID_FILE=1)
+E_ERR_FAIL_WRITE_PID=66                 # exit code when we cannot write to a pid file
+

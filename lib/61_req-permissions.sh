@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # @Author:             Nathan Farrar
-# @Date:               2014-08-31 10:50:29
+# @Date:               2014-08-31 11:02:27
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:18
+# @Last Modified time: 2014-08-31 12:17:15
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -19,3 +19,6 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+F_REQ_SUDO=0        # require this script to run using SUDO privileges
+E_ERR_SUDO=62       # exit code when executing as user without sudo privileges
