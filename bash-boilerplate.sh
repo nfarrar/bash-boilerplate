@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
-#/ Usage: ./boilerplate.sh
-#/   Bash boilerplate script framework. Batteries included.
+# @Author:             Nathan Farrar
+# @Date:               2014-08-31 10:50:29
+# @Last Modified by:   Nathan Farrar
+# @Last Modified time: 2014-08-31 12:18:55
+
+#/ Usage: ./bash-boilerplate.sh
+#/   Bash Boilerplate - A Framework for Building Bash Scripts
+#/   Copyright (C) 2014  Nathan Farrar
+#/   This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+#/   This is free software, and you are welcome to redistribute it
+#/   under certain conditions; type `show c' for details.
 
 
 # Strict Execution
