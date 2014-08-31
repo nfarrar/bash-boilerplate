@@ -2,7 +2,7 @@
 # @Author:             Nathan Farrar
 # @Date:               2014-08-31 10:11:36
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:41
+# @Last Modified time: 2014-08-31 12:47:26
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -19,6 +19,11 @@
 
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+# Do not source this library multiple times.
+[ -n "$LIB_CLI_OPTIONS" ] && return || readonly LIB_CLI_OPTIONS=1
+
 
 # Command Line Options
 # --------------------

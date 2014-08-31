@@ -2,7 +2,7 @@
 # @Author:             Nathan Farrar
 # @Date:               2014-08-31 10:45:20
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:31
+# @Last Modified time: 2014-08-31 12:47:16
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -20,8 +20,9 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Terminal Symbols
-# ================
+
+# Do not source this library multiple times.
+[ -n "$LIB_TERM_SYMBOLS" ] && return || readonly LIB_TERM_SYMBOLS=1
 
 # Global Constants
 # ----------------

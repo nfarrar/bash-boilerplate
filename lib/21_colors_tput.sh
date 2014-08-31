@@ -2,7 +2,7 @@
 # @Author:             Nathan Farrar
 # @Date:               2014-08-31 10:49:50
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:16:34
+# @Last Modified time: 2014-08-31 12:47:20
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -20,8 +20,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# Tput Terminal Color Definitions
-# ===============================
+
+# Do not source this library multiple times.
+[ -n "$LIB_COLORS_TPUT" ] && return || readonly LIB_COLORS_TPUT=1
+
 
 # Terminal Color Definitions
 # --------------------------

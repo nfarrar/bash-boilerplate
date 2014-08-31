@@ -2,7 +2,7 @@
 # @Author:             Nathan Farrar
 # @Date:               2014-08-31 10:43:15
 # @Last Modified by:   Nathan Farrar
-# @Last Modified time: 2014-08-31 12:17:20
+# @Last Modified time: 2014-08-31 12:47:42
 
 # Bash Boilerplate - A Framework for Building Bash Scripts
 # Copyright (C) 2014  Nathan Farrar
@@ -20,8 +20,13 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# [220] Runtime Requirement - Bash Version
-# ----------------------------------------
+
+# Do not source this library multiple times.
+[ -n "$LIB_REQ_BASH_VERSION" ] && return || readonly LIB_REQ_BASH_VERSION=1
+
+
+# Runtime Requirement - Bash Version
+# ----------------------------------
 E_ERR_BASH_VERS=63                      # exit code when executing in an unsupported version of bash
 
 F_REQ_BASH_VERS=1                       # require this script to execute using a specific version of bash
